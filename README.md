@@ -10,6 +10,7 @@ Pequeño conjunto de utilidades Python reutilizables.
 - `leer_archivo_texto(ruta_archivo: str, encoding: str = 'utf-8') -> Optional[str]`: Lee el contenido de un archivo de texto
 - `guardar_dataframe_como_csv(df: pd.DataFrame, nombre_archivo: str) -> bool`: Guarda un DataFrame como archivo CSV
 - `guardar_dataframe_como_xlsx(df: pd.DataFrame, nombre_archivo: str) -> bool`: Guarda un DataFrame como archivo Excel
+- `buqueda_recursiva_directorio(directorio: str, extension: Optional[str] = None) -> Optional[List[str]]`: Busca archivos de forma recursiva en un directorio y subdirectorios, con filtro opcional por extensión.
 
 ### Manipulación de datos
 - `crear_dataframe_desde_datos(todos_los_datos: List[Dict[str, str]]) -> Optional[pd.DataFrame]`: Crea un DataFrame desde una lista de diccionarios
